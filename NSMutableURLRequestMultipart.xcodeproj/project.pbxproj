@@ -10,10 +10,9 @@
 		1272F2621C04255E006EE9AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272F2611C04255E006EE9AC /* main.m */; };
 		1272F2651C04255E006EE9AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272F2641C04255E006EE9AC /* AppDelegate.m */; };
 		1272F2681C04255E006EE9AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272F2671C04255E006EE9AC /* ViewController.m */; };
-		1272F26B1C04255E006EE9AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1272F2691C04255E006EE9AC /* Main.storyboard */; };
-		1272F26D1C04255E006EE9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1272F26C1C04255E006EE9AC /* Assets.xcassets */; };
-		1272F2701C04255E006EE9AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1272F26E1C04255E006EE9AC /* LaunchScreen.storyboard */; };
 		1272F27B1C04255E006EE9AC /* NSMutableURLRequestMultipartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272F27A1C04255E006EE9AC /* NSMutableURLRequestMultipartTests.m */; };
+		1272F2871C0425C2006EE9AC /* NSMutableURLRequest+Multipart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272F2861C0425C2006EE9AC /* NSMutableURLRequest+Multipart.m */; };
+		1272F2891C042609006EE9AC /* Lenna.png in Resources */ = {isa = PBXBuildFile; fileRef = 1272F2881C042609006EE9AC /* Lenna.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +32,13 @@
 		1272F2641C04255E006EE9AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1272F2661C04255E006EE9AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1272F2671C04255E006EE9AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1272F26A1C04255E006EE9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1272F26C1C04255E006EE9AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1272F26F1C04255E006EE9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1272F2711C04255E006EE9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1272F2761C04255E006EE9AC /* NSMutableURLRequestMultipartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSMutableURLRequestMultipartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1272F27A1C04255E006EE9AC /* NSMutableURLRequestMultipartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableURLRequestMultipartTests.m; sourceTree = "<group>"; };
 		1272F27C1C04255E006EE9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1272F2851C0425C2006EE9AC /* NSMutableURLRequest+Multipart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Multipart.h"; sourceTree = "<group>"; };
+		1272F2861C0425C2006EE9AC /* NSMutableURLRequest+Multipart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Multipart.m"; sourceTree = "<group>"; };
+		1272F2881C042609006EE9AC /* Lenna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lenna.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +82,12 @@
 			children = (
 				1272F2631C04255E006EE9AC /* AppDelegate.h */,
 				1272F2641C04255E006EE9AC /* AppDelegate.m */,
+				1272F2851C0425C2006EE9AC /* NSMutableURLRequest+Multipart.h */,
+				1272F2861C0425C2006EE9AC /* NSMutableURLRequest+Multipart.m */,
 				1272F2661C04255E006EE9AC /* ViewController.h */,
 				1272F2671C04255E006EE9AC /* ViewController.m */,
-				1272F2691C04255E006EE9AC /* Main.storyboard */,
-				1272F26C1C04255E006EE9AC /* Assets.xcassets */,
-				1272F26E1C04255E006EE9AC /* LaunchScreen.storyboard */,
 				1272F2711C04255E006EE9AC /* Info.plist */,
+				1272F2881C042609006EE9AC /* Lenna.png */,
 				1272F2601C04255E006EE9AC /* Supporting Files */,
 			);
 			path = NSMutableURLRequestMultipart;
@@ -191,9 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1272F2701C04255E006EE9AC /* LaunchScreen.storyboard in Resources */,
-				1272F26D1C04255E006EE9AC /* Assets.xcassets in Resources */,
-				1272F26B1C04255E006EE9AC /* Main.storyboard in Resources */,
+				1272F2891C042609006EE9AC /* Lenna.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +210,7 @@
 			files = (
 				1272F2681C04255E006EE9AC /* ViewController.m in Sources */,
 				1272F2651C04255E006EE9AC /* AppDelegate.m in Sources */,
+				1272F2871C0425C2006EE9AC /* NSMutableURLRequest+Multipart.m in Sources */,
 				1272F2621C04255E006EE9AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,25 +232,6 @@
 			targetProxy = 1272F2771C04255E006EE9AC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1272F2691C04255E006EE9AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1272F26A1C04255E006EE9AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1272F26E1C04255E006EE9AC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1272F26F1C04255E006EE9AC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1272F27D1C04255E006EE9AC /* Debug */ = {
