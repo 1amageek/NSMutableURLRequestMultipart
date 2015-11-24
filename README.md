@@ -28,7 +28,7 @@ You create a form using the MultipartFormData.
 
 ## Usage
 ``` objective-c
-NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration];
     
     UIImage *image = [UIImage imageNamed:@"Lenna"];
@@ -39,7 +39,7 @@ NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSes
     }];
     
     NSURLSessionDataTask *task = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        // response
+      // response
     }];
     [task resume];
     
