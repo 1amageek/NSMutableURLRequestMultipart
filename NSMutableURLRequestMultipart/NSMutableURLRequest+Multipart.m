@@ -68,18 +68,18 @@ static inline NSString * ContentTypeForPathExtension(NSString *extension) {
                 error:(NSError * __autoreleasing *)error
 {
     NSData *data = [NSData dataWithContentsOfURL:fileURL];
-    [self appnedFileData:data name:name fileName:fileName mimeType:mimeType error:error];
+    [self appendFileData:data name:name fileName:fileName mimeType:mimeType error:error];
 }
 
-- (void)appnedFileData:(NSData *)data
+- (void)appendFileData:(NSData *)data
                   name:(NSString *)name
               mimeType:(NSString *)mimeType
                  error:(NSError * __autoreleasing *)error
 {
-    [self appnedFileData:data name:name fileName:nil mimeType:mimeType error:error];
+    [self appendFileData:data name:name fileName:nil mimeType:mimeType error:error];
 }
 
-- (void)appnedFileData:(NSData *)data
+- (void)appendFileData:(NSData *)data
                   name:(NSString *)name
               fileName:(NSString *)fileName
               mimeType:(NSString *)mimeType
