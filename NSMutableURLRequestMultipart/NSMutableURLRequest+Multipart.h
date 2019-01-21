@@ -47,7 +47,7 @@
  @param name
  @param mimeType
  */
-- (void)appnedFileData:(NSData *)data
+- (void)appendFileData:(NSData *)data
                   name:(NSString *)name
               mimeType:(NSString *)mimeType
                  error:(NSError * __autoreleasing *)error;
@@ -59,7 +59,7 @@
  @param fileName
  @param mimeType
  */
-- (void)appnedFileData:(NSData *)data
+- (void)appendFileData:(NSData *)data
                   name:(NSString *)name
               fileName:(NSString *)fileName
               mimeType:(NSString *)mimeType
